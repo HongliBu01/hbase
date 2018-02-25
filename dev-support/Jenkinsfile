@@ -467,7 +467,8 @@ curl -L  -o personality.sh "${env.PROJECT_PERSONALITY}"
            echo ""
            echo "[INFO] There are ${currentBuild.changeSets.size()} change sets."
            getJirasToComment(currentBuild).each { currentIssue ->
-             jiraComment issueKey: currentIssue, body: comment
+//             jiraComment issueKey: currentIssue, body: comment
+               echo "jiraComment issueKey: ${currentIssue}, body: ${comment}"
            }
         } catch (Exception exception) {
           echo "Got exception: ${exception}"
