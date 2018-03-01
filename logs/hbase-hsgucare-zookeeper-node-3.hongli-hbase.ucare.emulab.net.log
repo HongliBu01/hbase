@@ -1,0 +1,14 @@
+2018-02-28 01:29:09,909 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /178.40.100.211:45582
+2018-02-28 01:30:10,410 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x0, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-28 01:30:10,411 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /178.40.100.211:45582 (no session established for client)
+2018-02-28 06:35:41,614 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /123.150.200.121:57388
+2018-02-28 06:36:41,987 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x0, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-28 06:36:41,987 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /123.150.200.121:57388 (no session established for client)
