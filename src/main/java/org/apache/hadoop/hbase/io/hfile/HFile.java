@@ -545,7 +545,7 @@ public class HFile {
       DataBlockEncoding preferredEncodingInCache, HFileSystem hfs)
       throws IOException {
     LOG.info("Enter the pickReaderVersion function!");
-    String parentPathStr = "hdfs://node-0:9000/hbase/usertable1";
+    String parentPathStr = "hdfs://node-0:9000/hbase/usertable4";
     String fullPathStr = path.toString();
     FixedFileTrailer trailer = null;
     try { 
