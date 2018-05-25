@@ -1,0 +1,369 @@
+Thu Apr 26 21:15:49 MDT 2018 Starting master on node-0.hongli-hbase2.ucare.emulab.net
+ulimit -n 1024
+2018-04-26 21:15:50,455 INFO org.apache.hadoop.hbase.ipc.HBaseRpcMetrics: Initializing RPC Metrics with hostName=HMaster, port=60000
+2018-04-26 21:15:50,597 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server Responder: starting
+2018-04-26 21:15:50,598 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server listener on 60000: starting
+2018-04-26 21:15:50,601 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 0 on 60000: starting
+2018-04-26 21:15:50,602 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 1 on 60000: starting
+2018-04-26 21:15:50,603 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 2 on 60000: starting
+2018-04-26 21:15:50,604 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 3 on 60000: starting
+2018-04-26 21:15:50,605 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 4 on 60000: starting
+2018-04-26 21:15:50,606 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 5 on 60000: starting
+2018-04-26 21:15:50,607 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 6 on 60000: starting
+2018-04-26 21:15:50,607 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 7 on 60000: starting
+2018-04-26 21:15:50,608 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 8 on 60000: starting
+2018-04-26 21:15:50,609 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 9 on 60000: starting
+2018-04-26 21:15:50,642 INFO org.apache.zookeeper.ZooKeeper: Client environment:zookeeper.version=3.3.2-1031432, built on 11/05/2010 05:32 GMT
+2018-04-26 21:15:50,642 INFO org.apache.zookeeper.ZooKeeper: Client environment:host.name=pc798.emulab.net
+2018-04-26 21:15:50,642 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.version=1.7.0_95
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.vendor=Oracle Corporation
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.class.path=/proj/ucare/honglibu_3664/hbase-0.90.1/conf:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar:/proj/ucare/honglibu_3664/hbase-0.90.1:/proj/ucare/honglibu_3664/hbase-0.90.1/hbase-0.90.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/hbase-0.90.1-tests.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/avro-1.3.3.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/commons-cli-1.2.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/commons-codec-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/commons-configuration-1.6.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/commons-el-1.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/commons-httpclient-3.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/commons-lang-2.5.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/commons-logging-1.1.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/guava-r06.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/hadoop-core-1.0.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jasper-compiler-5.5.23.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jasper-runtime-5.5.23.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jaxb-api-2.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jersey-core-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jersey-json-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jersey-server-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jetty-6.1.26.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jetty-util-6.1.26.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jruby-complete-1.0.3.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jsp-2.1-6.1.14.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jsp-api-2.1-6.1.14.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/jsr311-api-1.1.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/log4j-1.2.16.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/protobuf-java-2.3.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/servlet-api-2.5-6.1.14.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/slf4j-api-1.5.8.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/slf4j-log4j12-1.5.8.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/stax-api-1.0.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/thrift-0.2.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/lib/zookeeper-3.3.2.jar
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.name=Linux
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.version=3.13.0-68-generic
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.name=hsgucare
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.home=/users/hsgucare
+2018-04-26 21:15:50,643 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.dir=/proj/ucare/honglibu_3664/hbase-0.90.1
+2018-04-26 21:15:50,645 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=10.1.1.5:2222,10.1.1.4:2222,10.1.1.3:2222 sessionTimeout=180000 watcher=master:60000
+2018-04-26 21:15:50,667 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.4:2222
+2018-04-26 21:15:50,678 WARN org.apache.zookeeper.ClientCnxn: Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:744)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2018-04-26 21:15:51,647 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.5:2222
+2018-04-26 21:15:51,648 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-3-lan0/10.1.1.5:2222, initiating session
+2018-04-26 21:15:51,651 INFO org.apache.zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+2018-04-26 21:15:52,474 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.3:2222
+2018-04-26 21:15:52,474 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-1-lan0/10.1.1.3:2222, initiating session
+2018-04-26 21:15:52,663 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server node-1-lan0/10.1.1.3:2222, sessionid = 0x630519911e0000, negotiated timeout = 180000
+2018-04-26 21:15:52,747 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=Master, sessionId=pc798.emulab.net:60000
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: revision
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUser
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsDate
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUrl
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: date
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsRevision
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: user
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsVersion
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: url
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: MetricsString added: version
+2018-04-26 21:15:52,760 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2018-04-26 21:15:52,762 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2018-04-26 21:15:52,762 INFO org.apache.hadoop.hbase.master.metrics.MasterMetrics: Initialized
+2018-04-26 21:15:52,776 INFO org.apache.hadoop.hbase.master.ActiveMasterManager: Master=pc798.emulab.net:60000
+2018-04-26 21:15:53,698 DEBUG org.apache.hadoop.hbase.util.FSUtils: Created version file at hdfs://node-0:9000/hbase set its version at:7
+2018-04-26 21:15:53,734 INFO org.apache.hadoop.hbase.master.MasterFileSystem: BOOTSTRAP: creating ROOT and first META regions
+2018-04-26 21:15:53,776 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: HLog configuration: blocksize=64 MB, rollsize=60.8 MB, enabled=true, flushlogentries=1, optionallogflushinternal=1000ms
+2018-04-26 21:15:53,872 INFO org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: Using syncFs -- HDFS-200
+2018-04-26 21:15:53,876 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: New hlog /hbase/-ROOT-/70236052/.logs/hlog.1524798953776
+2018-04-26 21:15:53,876 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Using getNumCurrentReplicas--HDFS-826
+2018-04-26 21:15:53,887 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated -ROOT-,,0.70236052
+2018-04-26 21:15:54,018 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined -ROOT-,,0.70236052; next sequenceid=1
+2018-04-26 21:15:54,048 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: HLog configuration: blocksize=64 MB, rollsize=60.8 MB, enabled=true, flushlogentries=1, optionallogflushinternal=1000ms
+2018-04-26 21:15:54,099 INFO org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: Using syncFs -- HDFS-200
+2018-04-26 21:15:54,102 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: New hlog /hbase/.META./1028785192/.logs/hlog.1524798954048
+2018-04-26 21:15:54,102 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Using getNumCurrentReplicas--HDFS-826
+2018-04-26 21:15:54,103 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated .META.,,1.1028785192
+2018-04-26 21:15:54,179 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined .META.,,1.1028785192; next sequenceid=1
+2018-04-26 21:15:54,207 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Closing -ROOT-,,0.70236052: disabling compactions & flushes
+2018-04-26 21:15:54,207 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Updates disabled for region -ROOT-,,0.70236052
+2018-04-26 21:15:54,207 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Started memstore flush for -ROOT-,,0.70236052, current region memstore size 496.0
+2018-04-26 21:15:54,208 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Finished snapshotting, commencing flushing stores
+2018-04-26 21:15:54,277 INFO org.apache.hadoop.hbase.regionserver.Store: Renaming flushed file at hdfs://node-0:9000/hbase/-ROOT-/70236052/.tmp/4206540153609592011 to hdfs://node-0:9000/hbase/-ROOT-/70236052/info/2401685121505773827
+2018-04-26 21:15:54,312 INFO org.apache.hadoop.hbase.regionserver.Store: Added hdfs://node-0:9000/hbase/-ROOT-/70236052/info/2401685121505773827, entries=1, sequenceid=2, memsize=496.0, filesize=706.0
+2018-04-26 21:15:54,316 INFO org.apache.hadoop.hbase.regionserver.HRegion: Finished memstore flush of ~496.0 for region -ROOT-,,0.70236052 in 109ms, sequenceid=2, compaction requested=false
+2018-04-26 21:15:54,317 DEBUG org.apache.hadoop.hbase.regionserver.Store: closed info
+2018-04-26 21:15:54,318 INFO org.apache.hadoop.hbase.regionserver.HRegion: Closed -ROOT-,,0.70236052
+2018-04-26 21:15:54,318 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: master-pc798.emulab.net:60000.logSyncer interrupted while waiting for sync requests
+2018-04-26 21:15:54,319 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: master-pc798.emulab.net:60000.logSyncer exiting
+2018-04-26 21:15:54,319 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: closing hlog writer in hdfs://node-0:9000/hbase/-ROOT-/70236052/.logs
+2018-04-26 21:15:54,367 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: Moved 1 log files to /hbase/-ROOT-/70236052/.oldlogs
+2018-04-26 21:15:54,376 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Closing .META.,,1.1028785192: disabling compactions & flushes
+2018-04-26 21:15:54,376 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Updates disabled for region .META.,,1.1028785192
+2018-04-26 21:15:54,376 DEBUG org.apache.hadoop.hbase.regionserver.Store: closed info
+2018-04-26 21:15:54,376 INFO org.apache.hadoop.hbase.regionserver.HRegion: Closed .META.,,1.1028785192
+2018-04-26 21:15:54,377 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: master-pc798.emulab.net:60000.logSyncer interrupted while waiting for sync requests
+2018-04-26 21:15:54,377 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: master-pc798.emulab.net:60000.logSyncer exiting
+2018-04-26 21:15:54,377 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: closing hlog writer in hdfs://node-0:9000/hbase/.META./1028785192/.logs
+2018-04-26 21:15:54,409 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: Moved 1 log files to /hbase/.META./1028785192/.oldlogs
+2018-04-26 21:15:54,437 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=10.1.1.5:2222,10.1.1.4:2222,10.1.1.3:2222 sessionTimeout=180000 watcher=hconnection
+2018-04-26 21:15:54,456 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.3:2222
+2018-04-26 21:15:54,458 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-1-lan0/10.1.1.3:2222, initiating session
+2018-04-26 21:15:54,467 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server node-1-lan0/10.1.1.3:2222, sessionid = 0x630519911e0005, negotiated timeout = 180000
+2018-04-26 21:15:54,521 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@4e0f66e9
+2018-04-26 21:15:54,560 INFO org.apache.hadoop.hbase.master.HMaster: Server active/primary master; pc798.emulab.net:60000, sessionid=0x630519911e0000, cluster-up flag was=false
+2018-04-26 21:15:54,563 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_OPEN_REGION-pc798.emulab.net:60000, corePoolSize=5, maxPoolSize=5
+2018-04-26 21:15:54,563 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_CLOSE_REGION-pc798.emulab.net:60000, corePoolSize=5, maxPoolSize=5
+2018-04-26 21:15:54,563 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_SERVER_OPERATIONS-pc798.emulab.net:60000, corePoolSize=3, maxPoolSize=3
+2018-04-26 21:15:54,564 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_META_SERVER_OPERATIONS-pc798.emulab.net:60000, corePoolSize=5, maxPoolSize=5
+2018-04-26 21:15:54,564 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=MASTER_TABLE_OPERATIONS-pc798.emulab.net:60000, corePoolSize=1, maxPoolSize=1
+2018-04-26 21:15:54,565 DEBUG org.apache.hadoop.hbase.master.LogCleaner: Add log cleaner in chain: org.apache.hadoop.hbase.master.TimeToLiveLogCleaner
+2018-04-26 21:15:54,568 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=10.1.1.5:2222,10.1.1.4:2222,10.1.1.3:2222 sessionTimeout=180000 watcher=replicationLogCleaner
+2018-04-26 21:15:54,569 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.5:2222
+2018-04-26 21:15:54,570 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-3-lan0/10.1.1.5:2222, initiating session
+2018-04-26 21:15:54,571 INFO org.apache.zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+2018-04-26 21:15:55,381 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.4:2222
+2018-04-26 21:15:55,382 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-2-lan0/10.1.1.4:2222, initiating session
+2018-04-26 21:15:55,392 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server node-2-lan0/10.1.1.4:2222, sessionid = 0x1630519949b0002, negotiated timeout = 180000
+2018-04-26 21:15:55,491 INFO org.apache.hadoop.hbase.replication.ReplicationZookeeper: Replication is now started
+2018-04-26 21:15:55,492 INFO org.apache.hadoop.hbase.replication.ReplicationZookeeper: Replication is now started
+2018-04-26 21:15:55,494 DEBUG org.apache.hadoop.hbase.replication.master.ReplicationLogCleaner: Didn't find this log in ZK, deleting: null
+2018-04-26 21:15:55,494 DEBUG org.apache.hadoop.hbase.master.LogCleaner: Add log cleaner in chain: org.apache.hadoop.hbase.replication.master.ReplicationLogCleaner
+2018-04-26 21:15:55,623 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2018-04-26 21:15:55,704 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2018-04-26 21:15:55,709 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 60010
+2018-04-26 21:15:55,710 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 60010 webServer.getConnectors()[0].getLocalPort() returned 60010
+2018-04-26 21:15:55,710 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 60010
+2018-04-26 21:15:55,710 INFO org.mortbay.log: jetty-6.1.26
+2018-04-26 21:15:56,203 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:60010
+2018-04-26 21:15:56,204 DEBUG org.apache.hadoop.hbase.master.HMaster: Started service threads
+2018-04-26 21:15:57,704 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting on regionserver(s) to checkin
+2018-04-26 21:15:57,840 INFO org.apache.hadoop.hbase.master.ServerManager: Registering server=pc837.emulab.net,60020,1524798953046, regionCount=0, userLoad=false
+2018-04-26 21:15:57,848 INFO org.apache.hadoop.hbase.master.ServerManager: Registering server=pc839.emulab.net,60020,1524798952953, regionCount=0, userLoad=false
+2018-04-26 21:15:57,848 INFO org.apache.hadoop.hbase.master.ServerManager: Registering server=pc742.emulab.net,60020,1524798953712, regionCount=0, userLoad=false
+2018-04-26 21:15:59,204 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting on regionserver(s) count to settle; currently=3
+2018-04-26 21:16:00,705 INFO org.apache.hadoop.hbase.master.ServerManager: Finished waiting for regionserver count to settle; count=3, sleptFor=4500
+2018-04-26 21:16:00,705 INFO org.apache.hadoop.hbase.master.ServerManager: Exiting wait on regionserver(s) to checkin; count=3, stopped=false, count of regions out on cluster=0
+2018-04-26 21:16:00,709 INFO org.apache.hadoop.hbase.master.MasterFileSystem: Log folder hdfs://node-0:9000/hbase/.logs/pc742.emulab.net,60020,1524798953712 belongs to an existing region server
+2018-04-26 21:16:00,710 INFO org.apache.hadoop.hbase.master.MasterFileSystem: Log folder hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046 belongs to an existing region server
+2018-04-26 21:16:00,710 INFO org.apache.hadoop.hbase.master.MasterFileSystem: Log folder hdfs://node-0:9000/hbase/.logs/pc839.emulab.net,60020,1524798952953 belongs to an existing region server
+2018-04-26 21:16:01,715 INFO org.apache.hadoop.hbase.catalog.RootLocationEditor: Unsetting ROOT region location in ZooKeeper
+2018-04-26 21:16:01,801 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Creating (or updating) unassigned node for 70236052 with OFFLINE state
+2018-04-26 21:16:01,826 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for -ROOT-,,0.70236052 so generated a random one; hri=-ROOT-,,0.70236052, src=, dest=pc839.emulab.net,60020,1524798952953; 3 (online=3, exclude=null) available servers
+2018-04-26 21:16:01,827 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region -ROOT-,,0.70236052 to pc839.emulab.net,60020,1524798952953
+2018-04-26 21:16:01,827 DEBUG org.apache.hadoop.hbase.master.ServerManager: New connection to pc839.emulab.net,60020,1524798952953
+2018-04-26 21:16:01,900 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc839.emulab.net,60020,1524798952953, region=70236052/-ROOT-
+2018-04-26 21:16:02,026 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc839.emulab.net,60020,1524798952953, region=70236052/-ROOT-
+2018-04-26 21:16:02,042 INFO org.apache.hadoop.hbase.master.HMaster: -ROOT- assigned=1, rit=false, location=pc839.emulab.net:60020
+2018-04-26 21:16:02,057 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=pc839.emulab.net,60020,1524798952953, region=70236052/-ROOT-
+2018-04-26 21:16:02,060 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for 70236052; deleting unassigned node
+2018-04-26 21:16:02,061 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Deleting existing unassigned node for 70236052 that is in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:16:02,082 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Successfully deleted unassigned node for region 70236052 in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:16:02,083 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Opened region -ROOT-,,0.70236052 on pc839.emulab.net,60020,1524798952953
+2018-04-26 21:16:02,094 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Creating (or updating) unassigned node for 1028785192 with OFFLINE state
+2018-04-26 21:16:02,108 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=M_ZK_REGION_OFFLINE, server=pc798.emulab.net:60000, region=1028785192/.META.
+2018-04-26 21:16:02,109 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for .META.,,1.1028785192 so generated a random one; hri=.META.,,1.1028785192, src=, dest=pc839.emulab.net,60020,1524798952953; 3 (online=3, exclude=null) available servers
+2018-04-26 21:16:02,109 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region .META.,,1.1028785192 to pc839.emulab.net,60020,1524798952953
+2018-04-26 21:16:02,124 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc839.emulab.net,60020,1524798952953, region=1028785192/.META.
+2018-04-26 21:16:02,151 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc839.emulab.net,60020,1524798952953, region=1028785192/.META.
+2018-04-26 21:16:02,192 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=pc839.emulab.net,60020,1524798952953, region=1028785192/.META.
+2018-04-26 21:16:02,192 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for 1028785192; deleting unassigned node
+2018-04-26 21:16:02,193 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Deleting existing unassigned node for 1028785192 that is in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:16:02,206 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Successfully deleted unassigned node for region 1028785192 in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:16:02,206 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Opened region .META.,,1.1028785192 on pc839.emulab.net,60020,1524798952953
+2018-04-26 21:16:02,207 INFO org.apache.hadoop.hbase.zookeeper.MetaNodeTracker: Detected completed assignment of META, notifying catalog tracker
+2018-04-26 21:16:02,217 INFO org.apache.hadoop.hbase.master.HMaster: .META. assigned=2, rit=false, location=pc839.emulab.net:60020
+2018-04-26 21:16:02,217 INFO org.apache.hadoop.hbase.master.HMaster: Master startup proceeding: cluster startup
+2018-04-26 21:16:02,217 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Deleting any existing unassigned nodes
+2018-04-26 21:16:02,230 INFO org.apache.hadoop.hbase.master.HMaster: Master has completed initialization
+2018-04-26 21:16:02,237 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 0 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 21:16:14,447 WARN org.apache.hadoop.hbase.zookeeper.ZKTable: Moving table table1 state to enabled but was already enabled
+2018-04-26 21:16:14,480 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: HLog configuration: blocksize=64 MB, rollsize=60.8 MB, enabled=true, flushlogentries=1, optionallogflushinternal=1000ms
+2018-04-26 21:16:14,530 INFO org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: Using syncFs -- HDFS-200
+2018-04-26 21:16:14,532 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: New hlog /hbase/table1/44119e1cf86d94f397db1c6ad3c89198/.logs/hlog.1524798974480
+2018-04-26 21:16:14,532 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Using getNumCurrentReplicas--HDFS-826
+2018-04-26 21:16:14,533 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:16:14,612 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.; next sequenceid=1
+2018-04-26 21:16:14,621 INFO org.apache.hadoop.hbase.catalog.MetaEditor: Added region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. to META
+2018-04-26 21:16:14,621 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Closing table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.: disabling compactions & flushes
+2018-04-26 21:16:14,621 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Updates disabled for region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:16:14,621 DEBUG org.apache.hadoop.hbase.regionserver.Store: closed cf
+2018-04-26 21:16:14,622 INFO org.apache.hadoop.hbase.regionserver.HRegion: Closed table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:16:14,622 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: IPC Server handler 1 on 60000.logSyncer interrupted while waiting for sync requests
+2018-04-26 21:16:14,622 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: IPC Server handler 1 on 60000.logSyncer exiting
+2018-04-26 21:16:14,622 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: closing hlog writer in hdfs://node-0:9000/hbase/table1/44119e1cf86d94f397db1c6ad3c89198/.logs
+2018-04-26 21:16:14,663 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: Moved 1 log files to /hbase/table1/44119e1cf86d94f397db1c6ad3c89198/.oldlogs
+2018-04-26 21:16:14,672 INFO org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning 1 region(s) round-robin across 3 server(s)
+2018-04-26 21:16:14,676 INFO org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning done
+2018-04-26 21:16:14,676 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning 1 region(s) to pc837.emulab.net,60020,1524798953046
+2018-04-26 21:16:14,676 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning 0 region(s) to pc839.emulab.net,60020,1524798952953
+2018-04-26 21:16:14,676 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning 0 region(s) to pc742.emulab.net,60020,1524798953712
+2018-04-26 21:16:14,679 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Async create of unassigned node for 44119e1cf86d94f397db1c6ad3c89198 with OFFLINE state
+2018-04-26 21:16:14,679 DEBUG org.apache.hadoop.hbase.master.ServerManager: New connection to pc742.emulab.net,60020,1524798953712
+2018-04-26 21:16:14,681 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning done for pc839.emulab.net,60020,1524798952953
+2018-04-26 21:16:14,689 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning done for pc742.emulab.net,60020,1524798953712
+2018-04-26 21:16:14,693 DEBUG org.apache.hadoop.hbase.master.AssignmentManager$CreateUnassignedAsyncCallback: rs=table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. state=OFFLINE, ts=1524798974679, server=pc837.emulab.net,60020,1524798953046
+2018-04-26 21:16:14,695 DEBUG org.apache.hadoop.hbase.master.AssignmentManager$ExistsUnassignedAsyncCallback: rs=table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. state=OFFLINE, ts=1524798974679
+2018-04-26 21:16:14,696 INFO org.apache.hadoop.hbase.master.AssignmentManager: pc837.emulab.net,60020,1524798953046 unassigned znodes=1 of total=1
+2018-04-26 21:16:14,696 DEBUG org.apache.hadoop.hbase.master.ServerManager: New connection to pc837.emulab.net,60020,1524798953046
+2018-04-26 21:16:14,710 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning done for pc837.emulab.net,60020,1524798953046
+2018-04-26 21:16:14,740 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc837.emulab.net,60020,1524798953046, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:16:14,831 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc837.emulab.net,60020,1524798953046, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:16:14,856 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=pc837.emulab.net,60020,1524798953046, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:16:14,857 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for 44119e1cf86d94f397db1c6ad3c89198; deleting unassigned node
+2018-04-26 21:16:14,857 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Deleting existing unassigned node for 44119e1cf86d94f397db1c6ad3c89198 that is in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:16:14,871 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Successfully deleted unassigned node for region 44119e1cf86d94f397db1c6ad3c89198 in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:16:14,873 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Opened region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. on pc837.emulab.net,60020,1524798953046
+2018-04-26 21:19:53,689 INFO org.apache.hadoop.hbase.zookeeper.RegionServerTracker: RegionServer ephemeral node deleted, processing expiration [pc839.emulab.net,60020,1524798952953]
+2018-04-26 21:19:53,691 DEBUG org.apache.hadoop.hbase.master.ServerManager: Added=pc839.emulab.net,60020,1524798952953 to dead servers, submitted shutdown handler to be executed, root=true, meta=true
+2018-04-26 21:19:53,691 INFO org.apache.hadoop.hbase.master.handler.ServerShutdownHandler: Splitting logs for pc839.emulab.net,60020,1524798952953
+2018-04-26 21:19:53,697 INFO org.apache.hadoop.hbase.zookeeper.RegionServerTracker: RegionServer ephemeral node deleted, processing expiration [pc837.emulab.net,60020,1524798953046]
+2018-04-26 21:19:53,697 DEBUG org.apache.hadoop.hbase.master.ServerManager: Added=pc837.emulab.net,60020,1524798953046 to dead servers, submitted shutdown handler to be executed, root=false, meta=false
+2018-04-26 21:19:53,697 INFO org.apache.hadoop.hbase.master.handler.ServerShutdownHandler: Splitting logs for pc837.emulab.net,60020,1524798953046
+2018-04-26 21:19:53,709 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Splitting 1 hlog(s) in hdfs://node-0:9000/hbase/.logs/pc839.emulab.net,60020,1524798952953
+2018-04-26 21:19:53,711 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Writer thread Thread[WriterThread-0,5,main]: starting
+2018-04-26 21:19:53,712 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Splitting hlog 1 of 1: hdfs://node-0:9000/hbase/.logs/pc839.emulab.net,60020,1524798952953/pc839.emulab.net%3A60020.1524798958270, length=1040
+2018-04-26 21:19:53,712 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Writer thread Thread[WriterThread-2,5,main]: starting
+2018-04-26 21:19:53,711 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Writer thread Thread[WriterThread-1,5,main]: starting
+2018-04-26 21:19:53,712 INFO org.apache.hadoop.hbase.util.FSUtils: Recovering file hdfs://node-0:9000/hbase/.logs/pc839.emulab.net,60020,1524798952953/pc839.emulab.net%3A60020.1524798958270
+2018-04-26 21:19:53,878 INFO org.apache.hadoop.hbase.util.FSUtils: Finished lease recover attempt for hdfs://node-0:9000/hbase/.logs/pc839.emulab.net,60020,1524798952953/pc839.emulab.net%3A60020.1524798958270
+2018-04-26 21:19:53,896 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Pushed=3 entries from hdfs://node-0:9000/hbase/.logs/pc839.emulab.net,60020,1524798952953/pc839.emulab.net%3A60020.1524798958270
+2018-04-26 21:19:53,936 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Archived processed log hdfs://node-0:9000/hbase/.logs/pc839.emulab.net,60020,1524798952953/pc839.emulab.net%3A60020.1524798958270 to hdfs://node-0:9000/hbase/.oldlogs/pc839.emulab.net%3A60020.1524798958270
+2018-04-26 21:19:53,945 INFO org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: Using syncFs -- HDFS-200
+2018-04-26 21:19:53,946 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Creating writer path=hdfs://node-0:9000/hbase/.META./1028785192/recovered.edits/0000000000000000005 region=1028785192
+2018-04-26 21:19:53,953 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Waiting for split writer threads to finish
+2018-04-26 21:19:53,993 INFO org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: Using syncFs -- HDFS-200
+2018-04-26 21:19:53,993 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Creating writer path=hdfs://node-0:9000/hbase/-ROOT-/70236052/recovered.edits/0000000000000000004 region=70236052
+2018-04-26 21:19:53,994 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Split writers finished
+2018-04-26 21:19:54,020 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Closed path hdfs://node-0:9000/hbase/.META./1028785192/recovered.edits/0000000000000000005 (wrote 2 edits in 50ms)
+2018-04-26 21:19:54,044 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Closed path hdfs://node-0:9000/hbase/-ROOT-/70236052/recovered.edits/0000000000000000004 (wrote 1 edits in 97ms)
+2018-04-26 21:19:54,045 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: hlog file splitting completed in 342 ms for hdfs://node-0:9000/hbase/.logs/pc839.emulab.net,60020,1524798952953
+2018-04-26 21:19:54,045 INFO org.apache.hadoop.hbase.catalog.RootLocationEditor: Unsetting ROOT region location in ZooKeeper
+2018-04-26 21:19:54,049 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Splitting 1 hlog(s) in hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046
+2018-04-26 21:19:54,049 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Writer thread Thread[WriterThread-0,5,main]: starting
+2018-04-26 21:19:54,050 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Writer thread Thread[WriterThread-1,5,main]: starting
+2018-04-26 21:19:54,051 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Splitting hlog 1 of 1: hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046/pc837.emulab.net%3A60020.1524798958261, length=124
+2018-04-26 21:19:54,051 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Writer thread Thread[WriterThread-2,5,main]: starting
+2018-04-26 21:19:54,051 INFO org.apache.hadoop.hbase.util.FSUtils: Recovering file hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046/pc837.emulab.net%3A60020.1524798958261
+2018-04-26 21:19:54,058 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Creating (or updating) unassigned node for 70236052 with OFFLINE state
+2018-04-26 21:19:54,067 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for -ROOT-,,0.70236052 so generated a random one; hri=-ROOT-,,0.70236052, src=, dest=pc742.emulab.net,60020,1524798953712; 1 (online=1, exclude=null) available servers
+2018-04-26 21:19:54,067 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region -ROOT-,,0.70236052 to pc742.emulab.net,60020,1524798953712
+2018-04-26 21:19:54,075 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Creating (or updating) unassigned node for 1028785192 with OFFLINE state
+2018-04-26 21:19:54,084 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=M_ZK_REGION_OFFLINE, server=pc798.emulab.net:60000, region=1028785192/.META.
+2018-04-26 21:19:54,084 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for .META.,,1.1028785192 so generated a random one; hri=.META.,,1.1028785192, src=, dest=pc742.emulab.net,60020,1524798953712; 1 (online=1, exclude=null) available servers
+2018-04-26 21:19:54,084 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region .META.,,1.1028785192 to pc742.emulab.net,60020,1524798953712
+2018-04-26 21:19:54,088 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Failed verification of .META.,,1 at address=pc839.emulab.net:60020; java.net.ConnectException: Connection refused
+2018-04-26 21:19:54,089 INFO org.apache.hadoop.hbase.catalog.CatalogTracker: Current cached META location is not valid, resetting
+2018-04-26 21:19:54,113 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc742.emulab.net,60020,1524798953712, region=70236052/-ROOT-
+2018-04-26 21:19:54,115 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc742.emulab.net,60020,1524798953712, region=1028785192/.META.
+2018-04-26 21:19:54,128 INFO org.apache.hadoop.hbase.util.FSUtils: Finished lease recover attempt for hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046/pc837.emulab.net%3A60020.1524798958261
+2018-04-26 21:19:54,134 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Pushed=0 entries from hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046/pc837.emulab.net%3A60020.1524798958261
+2018-04-26 21:19:54,144 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Archived processed log hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046/pc837.emulab.net%3A60020.1524798958261 to hdfs://node-0:9000/hbase/.oldlogs/pc837.emulab.net%3A60020.1524798958261
+2018-04-26 21:19:54,153 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Waiting for split writer threads to finish
+2018-04-26 21:19:54,341 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc742.emulab.net,60020,1524798953712, region=70236052/-ROOT-
+2018-04-26 21:19:54,350 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc742.emulab.net,60020,1524798953712, region=1028785192/.META.
+2018-04-26 21:19:54,392 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=pc742.emulab.net,60020,1524798953712, region=70236052/-ROOT-
+2018-04-26 21:19:54,393 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for 70236052; deleting unassigned node
+2018-04-26 21:19:54,393 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Deleting existing unassigned node for 70236052 that is in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:19:54,408 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Successfully deleted unassigned node for region 70236052 in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:19:54,418 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=pc742.emulab.net,60020,1524798953712, region=1028785192/.META.
+2018-04-26 21:19:54,419 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for 1028785192; deleting unassigned node
+2018-04-26 21:19:54,419 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Deleting existing unassigned node for 1028785192 that is in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:19:54,419 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Opened region -ROOT-,,0.70236052 on pc742.emulab.net,60020,1524798953712
+2018-04-26 21:19:54,433 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Successfully deleted unassigned node for region 1028785192 in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:19:54,433 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Opened region .META.,,1.1028785192 on pc742.emulab.net,60020,1524798953712
+2018-04-26 21:19:54,434 INFO org.apache.hadoop.hbase.zookeeper.MetaNodeTracker: Detected completed assignment of META, notifying catalog tracker
+2018-04-26 21:19:54,481 INFO org.apache.hadoop.hbase.master.handler.ServerShutdownHandler: Reassigning 0 region(s) that pc839.emulab.net,60020,1524798952953 was carrying (skipping 0 regions(s) that are already in transition)
+2018-04-26 21:19:54,481 INFO org.apache.hadoop.hbase.master.handler.ServerShutdownHandler: Finished processing of shutdown of pc839.emulab.net,60020,1524798952953
+2018-04-26 21:19:55,051 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: Split writers finished
+2018-04-26 21:19:55,051 INFO org.apache.hadoop.hbase.regionserver.wal.HLogSplitter: hlog file splitting completed in 1006 ms for hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046
+2018-04-26 21:19:55,061 INFO org.apache.hadoop.hbase.master.handler.ServerShutdownHandler: Reassigning 1 region(s) that pc837.emulab.net,60020,1524798953046 was carrying (skipping 0 regions(s) that are already in transition)
+2018-04-26 21:19:55,061 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Creating (or updating) unassigned node for 44119e1cf86d94f397db1c6ad3c89198 with OFFLINE state
+2018-04-26 21:19:55,075 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. so generated a random one; hri=table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198., src=, dest=pc742.emulab.net,60020,1524798953712; 1 (online=1, exclude=null) available servers
+2018-04-26 21:19:55,075 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. to pc742.emulab.net,60020,1524798953712
+2018-04-26 21:19:55,078 INFO org.apache.hadoop.hbase.master.handler.ServerShutdownHandler: Finished processing of shutdown of pc837.emulab.net,60020,1524798953046
+2018-04-26 21:19:55,092 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc742.emulab.net,60020,1524798953712, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:19:55,117 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc742.emulab.net,60020,1524798953712, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:19:55,134 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=pc742.emulab.net,60020,1524798953712, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:19:55,134 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for 44119e1cf86d94f397db1c6ad3c89198; deleting unassigned node
+2018-04-26 21:19:55,134 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Deleting existing unassigned node for 44119e1cf86d94f397db1c6ad3c89198 that is in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:19:55,149 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Successfully deleted unassigned node for region 44119e1cf86d94f397db1c6ad3c89198 in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:19:55,151 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Opened region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. on pc742.emulab.net,60020,1524798953712
+2018-04-26 21:20:53,066 INFO org.apache.hadoop.hbase.master.handler.DisableTableHandler: Attemping to disable table table1
+2018-04-26 21:20:53,084 INFO org.apache.hadoop.hbase.master.handler.DisableTableHandler: Offlining 1 regions.
+2018-04-26 21:20:53,087 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Starting unassignment of region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. (offlining)
+2018-04-26 21:20:53,092 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Sent CLOSE to serverName=pc742.emulab.net,60020,1524798953712, load=(requests=0, regions=0, usedHeap=131, maxHeap=966) for region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:20:53,118 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling new unassigned node: /hbase/unassigned/44119e1cf86d94f397db1c6ad3c89198 (region=table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198., server=pc742.emulab.net,60020,1524798953712, state=RS_ZK_REGION_CLOSING)
+2018-04-26 21:20:53,118 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_CLOSING, server=pc742.emulab.net,60020,1524798953712, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:20:53,132 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_CLOSED, server=pc742.emulab.net,60020,1524798953712, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:20:53,134 DEBUG org.apache.hadoop.hbase.master.handler.ClosedRegionHandler: Handling CLOSED event for 44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:20:53,134 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Table being disabled so deleting ZK node and removing from regions in transition, skipping assignment of region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:20:53,134 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Deleting existing unassigned node for 44119e1cf86d94f397db1c6ad3c89198 that is in expected state RS_ZK_REGION_CLOSED
+2018-04-26 21:20:53,149 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Successfully deleted unassigned node for region 44119e1cf86d94f397db1c6ad3c89198 in expected state RS_ZK_REGION_CLOSED
+2018-04-26 21:20:54,107 INFO org.apache.hadoop.hbase.master.handler.DisableTableHandler: Disabled table is done=true
+2018-04-26 21:21:02,232 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=2 average=2.0 mostloaded=2 leastloaded=2
+2018-04-26 21:21:02,238 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 21:21:42,039 INFO org.apache.hadoop.hbase.master.handler.TableEventHandler: Handling table operation C_M_MODIFY_FAMILY on table table1
+2018-04-26 21:21:42,053 INFO org.apache.hadoop.hbase.catalog.MetaEditor: Updated region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. in META
+2018-04-26 21:21:50,111 INFO org.apache.hadoop.hbase.master.handler.EnableTableHandler: Attemping to enable the table table1
+2018-04-26 21:21:50,133 INFO org.apache.hadoop.hbase.master.handler.EnableTableHandler: Table has 1 regions of which 1 are online.
+2018-04-26 21:21:50,136 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Creating (or updating) unassigned node for 44119e1cf86d94f397db1c6ad3c89198 with OFFLINE state
+2018-04-26 21:21:50,151 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: No previous transition plan was found (or we are ignoring an existing plan) for table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. so generated a random one; hri=table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198., src=, dest=pc742.emulab.net,60020,1524798953712; 1 (online=1, exclude=null) available servers
+2018-04-26 21:21:50,151 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Assigning region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. to pc742.emulab.net,60020,1524798953712
+2018-04-26 21:21:50,167 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc742.emulab.net,60020,1524798953712, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:21:50,192 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=pc742.emulab.net,60020,1524798953712, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:21:50,209 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=pc742.emulab.net,60020,1524798953712, region=44119e1cf86d94f397db1c6ad3c89198
+2018-04-26 21:21:50,209 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for 44119e1cf86d94f397db1c6ad3c89198; deleting unassigned node
+2018-04-26 21:21:50,209 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Deleting existing unassigned node for 44119e1cf86d94f397db1c6ad3c89198 that is in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:21:50,217 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:60000-0x630519911e0000 Successfully deleted unassigned node for region 44119e1cf86d94f397db1c6ad3c89198 in expected state RS_ZK_REGION_OPENED
+2018-04-26 21:21:50,218 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Opened region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. on pc742.emulab.net,60020,1524798953712
+2018-04-26 21:21:51,150 INFO org.apache.hadoop.hbase.master.handler.EnableTableHandler: Enabled table is done=true
+2018-04-26 21:26:02,230 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 21:26:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 21:26:55,506 DEBUG org.apache.hadoop.hbase.replication.master.ReplicationLogCleaner: Didn't find this log in ZK, deleting: pc837.emulab.net%3A60020.1524798958261
+2018-04-26 21:26:55,800 DEBUG org.apache.hadoop.hbase.replication.master.ReplicationLogCleaner: Didn't find this log in ZK, deleting: pc839.emulab.net%3A60020.1524798958270
+2018-04-26 21:31:02,231 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 21:31:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 21:36:02,231 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 21:36:02,239 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 21:41:02,231 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 21:41:02,243 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 21:46:02,231 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 21:46:02,240 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 21:51:02,231 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 21:51:02,240 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 21:56:02,232 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 21:56:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:01:02,232 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:01:02,243 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:06:02,232 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:06:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:11:02,232 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:11:02,242 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:16:02,234 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:16:02,242 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:21:02,233 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:21:02,242 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:26:02,234 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:26:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:31:02,235 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:31:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:36:02,235 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:36:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:41:02,235 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:41:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:46:02,235 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:46:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:51:02,235 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:51:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 22:56:02,236 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 22:56:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:01:02,235 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:01:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:06:02,235 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:06:02,241 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:11:02,235 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:11:02,242 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:16:02,235 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:16:02,242 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:21:02,236 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:21:02,243 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:26:02,236 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:26:02,243 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:31:02,236 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:31:02,242 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:36:02,237 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:36:02,242 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:41:02,238 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:41:02,244 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:46:02,238 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:46:02,243 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:51:02,238 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:51:02,244 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-26 23:56:02,238 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-26 23:56:02,244 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)

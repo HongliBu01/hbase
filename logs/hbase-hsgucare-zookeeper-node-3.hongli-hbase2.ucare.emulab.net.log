@@ -1,0 +1,10 @@
+2018-04-27 00:39:19,851 INFO org.apache.zookeeper.server.PrepRequestProcessor: Got user-level KeeperException when processing sessionid:0x630519911e000a type:create cxid:0x1 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/hbase Error:KeeperErrorCode = NodeExists for /hbase
+2018-04-27 00:39:19,879 INFO org.apache.zookeeper.server.PrepRequestProcessor: Got user-level KeeperException when processing sessionid:0x630519911e000a type:create cxid:0x2 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/hbase/unassigned Error:KeeperErrorCode = NodeExists for /hbase/unassigned
+2018-04-27 00:39:19,889 INFO org.apache.zookeeper.server.PrepRequestProcessor: Got user-level KeeperException when processing sessionid:0x630519911e000a type:create cxid:0x3 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/hbase/rs Error:KeeperErrorCode = NodeExists for /hbase/rs
+2018-04-27 00:39:19,899 INFO org.apache.zookeeper.server.PrepRequestProcessor: Got user-level KeeperException when processing sessionid:0x630519911e000a type:create cxid:0x4 zxid:0xfffffffffffffffe txntype:unknown reqpath:n/a Error Path:/hbase/table Error:KeeperErrorCode = NodeExists for /hbase/table
+2018-04-27 00:39:23,446 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x630519911e0003
+2018-04-27 00:39:23,547 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x630519911e0004
+2018-04-27 00:39:23,737 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x1630519949b0002
+2018-04-27 00:39:23,851 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x630519911e0005
+2018-04-27 00:39:23,858 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x630519911e0000
+Fri Apr 27 00:39:26 MDT 2018 Killing zookeeper

@@ -1,0 +1,2 @@
+2018-04-27 00:39:23,772 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.2:45985 which had sessionid 0x1630519949b0002
+Fri Apr 27 00:39:26 MDT 2018 Killing zookeeper

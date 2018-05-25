@@ -1,0 +1,54 @@
+2018-04-27 00:01:02,238 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-27 00:01:02,245 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-27 00:06:02,238 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-27 00:06:02,246 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-27 00:11:02,238 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-27 00:11:02,247 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-27 00:16:02,238 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-27 00:16:02,246 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-27 00:21:02,240 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-27 00:21:02,246 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-27 00:26:02,239 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-27 00:26:02,247 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-27 00:31:02,239 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-27 00:31:02,246 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2018-04-27 00:36:02,239 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing.  servers=1 regions=3 average=3.0 mostloaded=3 leastloaded=3
+2018-04-27 00:36:02,246 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+Fri Apr 27 00:39:18 MDT 2018 Stopping hbase (via master)
+2018-04-27 00:39:20,153 INFO org.apache.hadoop.hbase.master.HMaster: Cluster shutdown requested
+2018-04-27 00:39:20,731 INFO org.apache.hadoop.hbase.master.HMaster$1: pc798.emulab.net:60000-BalancerChore exiting
+2018-04-27 00:39:20,731 INFO org.apache.hadoop.hbase.master.CatalogJanitor: pc798.emulab.net:60000-CatalogJanitor exiting
+2018-04-27 00:39:20,732 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting on regionserver(s) to go down pc742.emulab.net,60020,1524798953712
+2018-04-27 00:39:21,732 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting on regionserver(s) to go down pc742.emulab.net,60020,1524798953712
+2018-04-27 00:39:22,732 INFO org.apache.hadoop.hbase.master.ServerManager: Waiting on regionserver(s) to go down pc742.emulab.net,60020,1524798953712
+2018-04-27 00:39:23,556 INFO org.apache.hadoop.hbase.zookeeper.RegionServerTracker: RegionServer ephemeral node deleted, processing expiration [pc742.emulab.net,60020,1524798953712]
+2018-04-27 00:39:23,556 INFO org.apache.hadoop.hbase.master.ServerManager: Cluster shutdown set; pc742.emulab.net,60020,1524798953712 expired; onlineServers=0
+2018-04-27 00:39:23,556 INFO org.apache.hadoop.hbase.master.HMaster: Cluster shutdown set; onlineServer=0
+2018-04-27 00:39:23,733 DEBUG org.apache.hadoop.hbase.master.HMaster: Stopping service threads
+2018-04-27 00:39:23,733 INFO org.apache.hadoop.ipc.HBaseServer: Stopping server on 60000
+2018-04-27 00:39:23,733 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 0 on 60000: exiting
+2018-04-27 00:39:23,733 INFO org.apache.hadoop.ipc.HBaseServer: Stopping IPC Server listener on 60000
+2018-04-27 00:39:23,733 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 1 on 60000: exiting
+2018-04-27 00:39:23,733 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 7 on 60000: exiting
+2018-04-27 00:39:23,733 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 5 on 60000: exiting
+2018-04-27 00:39:23,734 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 3 on 60000: exiting
+2018-04-27 00:39:23,734 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 8 on 60000: exiting
+2018-04-27 00:39:23,733 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 4 on 60000: exiting
+2018-04-27 00:39:23,733 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 2 on 60000: exiting
+2018-04-27 00:39:23,734 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 9 on 60000: exiting
+2018-04-27 00:39:23,734 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 6 on 60000: exiting
+2018-04-27 00:39:23,735 INFO org.apache.hadoop.ipc.HBaseServer: Stopping IPC Server Responder
+2018-04-27 00:39:23,735 INFO org.apache.hadoop.hbase.master.HMaster: Stopping infoServer
+2018-04-27 00:39:23,735 INFO org.apache.hadoop.hbase.master.LogCleaner: master-pc798.emulab.net:60000.oldLogCleaner exiting
+2018-04-27 00:39:23,736 INFO org.apache.hadoop.hbase.replication.master.ReplicationLogCleaner: Stopping replicationLogCleaner-0x1630519949b0002
+2018-04-27 00:39:23,736 INFO org.mortbay.log: Stopped SelectChannelConnector@0.0.0.0:60010
+2018-04-27 00:39:23,746 INFO org.apache.zookeeper.ZooKeeper: Session: 0x1630519949b0002 closed
+2018-04-27 00:39:23,746 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2018-04-27 00:39:23,849 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@4e0f66e9
+2018-04-27 00:39:23,849 INFO org.apache.hadoop.hbase.master.AssignmentManager$TimeoutMonitor: pc798.emulab.net:60000.timeoutMonitor exiting
+2018-04-27 00:39:23,850 INFO org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Closed zookeeper sessionid=0x630519911e0005
+2018-04-27 00:39:23,857 INFO org.apache.zookeeper.ZooKeeper: Session: 0x630519911e0005 closed
+2018-04-27 00:39:23,857 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2018-04-27 00:39:23,865 INFO org.apache.zookeeper.ZooKeeper: Session: 0x630519911e0000 closed
+2018-04-27 00:39:23,865 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2018-04-27 00:39:23,865 INFO org.apache.hadoop.hbase.master.HMaster: HMaster main thread exiting

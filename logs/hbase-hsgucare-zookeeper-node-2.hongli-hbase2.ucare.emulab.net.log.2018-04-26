@@ -1,0 +1,84 @@
+Thu Apr 26 21:15:48 MDT 2018 Starting zookeeper on node-2.hongli-hbase2.ucare.emulab.net
+ulimit -n 1024
+2018-04-26 21:15:51,276 INFO org.apache.zookeeper.server.quorum.QuorumPeerConfig: Defaulting to majority quorums
+2018-04-26 21:15:51,413 DEBUG org.apache.hadoop.hbase.zookeeper.ZKConfig: preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@7a65105a, name=log4j:logger=org.apache.hadoop.hbase.zookeeper.ZKConfig
+2018-04-26 21:15:51,413 DEBUG org.apache.hadoop.hbase.HBaseConfiguration: preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@7a65105a, name=log4j:logger=org.apache.hadoop.hbase.HBaseConfiguration
+2018-04-26 21:15:51,413 DEBUG org.apache.hadoop.hbase: preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@7a65105a, name=log4j:logger=org.apache.hadoop.hbase
+2018-04-26 21:15:51,414 INFO org.apache.zookeeper.server.quorum.QuorumPeerMain: Starting quorum peer
+2018-04-26 21:15:51,447 INFO org.apache.zookeeper.server.NIOServerCnxn: binding to port 0.0.0.0/0.0.0.0:2222
+2018-04-26 21:15:51,480 INFO org.apache.zookeeper.server.quorum.QuorumPeer: tickTime set to 3000
+2018-04-26 21:15:51,480 INFO org.apache.zookeeper.server.quorum.QuorumPeer: minSessionTimeout set to -1
+2018-04-26 21:15:51,480 INFO org.apache.zookeeper.server.quorum.QuorumPeer: maxSessionTimeout set to 180000
+2018-04-26 21:15:51,480 INFO org.apache.zookeeper.server.quorum.QuorumPeer: initLimit set to 10
+2018-04-26 21:15:51,515 INFO org.apache.zookeeper.server.quorum.QuorumCnxManager: My election bind port: 3888
+2018-04-26 21:15:51,536 INFO org.apache.zookeeper.server.quorum.QuorumPeer: LOOKING
+2018-04-26 21:15:51,539 INFO org.apache.zookeeper.server.quorum.FastLeaderElection: New election. My id =  1, Proposed zxid = 0
+2018-04-26 21:15:51,550 INFO org.apache.zookeeper.server.quorum.FastLeaderElection: Notification: 1 (n.leader), 0 (n.zxid), 1 (n.round), LOOKING (n.state), 1 (n.sid), LOOKING (my state)
+2018-04-26 21:15:51,551 INFO org.apache.zookeeper.server.quorum.FastLeaderElection: Notification: 0 (n.leader), 0 (n.zxid), 1 (n.round), LOOKING (n.state), 0 (n.sid), LOOKING (my state)
+2018-04-26 21:15:51,551 INFO org.apache.zookeeper.server.quorum.FastLeaderElection: Notification: 2 (n.leader), 0 (n.zxid), 1 (n.round), LOOKING (n.state), 2 (n.sid), LOOKING (my state)
+2018-04-26 21:15:51,551 INFO org.apache.zookeeper.server.quorum.FastLeaderElection: Notification: 2 (n.leader), 0 (n.zxid), 1 (n.round), LOOKING (n.state), 0 (n.sid), LOOKING (my state)
+2018-04-26 21:15:51,552 INFO org.apache.zookeeper.server.quorum.FastLeaderElection: Updating proposal
+2018-04-26 21:15:51,552 INFO org.apache.zookeeper.server.quorum.FastLeaderElection: Notification: 2 (n.leader), 0 (n.zxid), 1 (n.round), LOOKING (n.state), 1 (n.sid), FOLLOWING (my state)
+2018-04-26 21:15:51,552 INFO org.apache.zookeeper.server.quorum.QuorumPeer: FOLLOWING
+2018-04-26 21:15:51,553 INFO org.apache.zookeeper.server.quorum.FastLeaderElection: Notification: 1 (n.leader), 0 (n.zxid), 1 (n.round), FOLLOWING (n.state), 1 (n.sid), FOLLOWING (my state)
+2018-04-26 21:15:51,561 INFO org.apache.zookeeper.server.quorum.Learner: TCP NoDelay set to: true
+2018-04-26 21:15:51,569 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:zookeeper.version=3.3.2-1031432, built on 11/05/2010 05:32 GMT
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:host.name=pc742.emulab.net
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.version=1.7.0_95
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.vendor=Oracle Corporation
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.class.path=/proj/ucare/honglibu_3664/hbase-0.90.1/conf:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/..:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../hbase-0.90.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../hbase-0.90.1-tests.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/avro-1.3.3.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-cli-1.2.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-codec-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-configuration-1.6.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-el-1.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-httpclient-3.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-lang-2.5.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-logging-1.1.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/guava-r06.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/hadoop-core-1.0.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jasper-compiler-5.5.23.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jasper-runtime-5.5.23.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jaxb-api-2.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jersey-core-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jersey-json-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jersey-server-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jetty-6.1.26.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jetty-util-6.1.26.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jruby-complete-1.0.3.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jsp-2.1-6.1.14.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jsp-api-2.1-6.1.14.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jsr311-api-1.1.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/log4j-1.2.16.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/protobuf-java-2.3.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/servlet-api-2.5-6.1.14.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/slf4j-api-1.5.8.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/slf4j-log4j12-1.5.8.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/stax-api-1.0.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/thrift-0.2.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/zookeeper-3.3.2.jar
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.io.tmpdir=/tmp
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:java.compiler=<NA>
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:os.name=Linux
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:os.arch=amd64
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:os.version=3.13.0-68-generic
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:user.name=hsgucare
+2018-04-26 21:15:51,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:user.home=/users/hsgucare
+2018-04-26 21:15:51,571 INFO org.apache.zookeeper.server.ZooKeeperServer: Server environment:user.dir=/proj/ucare/honglibu_3664/hbase-0.90.1
+2018-04-26 21:15:51,573 INFO org.apache.zookeeper.server.ZooKeeperServer: Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 180000 datadir /mnt/extra/zookeeper/version-2 snapdir /mnt/extra/zookeeper/version-2
+2018-04-26 21:15:51,583 WARN org.apache.zookeeper.server.quorum.Learner: Unexpected exception, tries=0, connecting to /10.1.1.5:2888
+java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.zookeeper.server.quorum.Learner.connectToLeader(Learner.java:212)
+	at org.apache.zookeeper.server.quorum.Follower.followLeader(Follower.java:65)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:644)
+2018-04-26 21:15:52,376 INFO org.apache.zookeeper.server.NIOServerCnxn: Accepted socket connection from /10.1.1.4:38366
+2018-04-26 21:15:52,382 WARN org.apache.zookeeper.server.NIOServerCnxn: Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+2018-04-26 21:15:52,382 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.4:38366 (no session established for client)
+2018-04-26 21:15:52,593 INFO org.apache.zookeeper.server.quorum.Learner: Getting a snapshot from leader
+2018-04-26 21:15:52,597 INFO org.apache.zookeeper.server.quorum.Learner: Setting leader epoch 1
+2018-04-26 21:15:52,620 WARN org.apache.zookeeper.server.quorum.Learner: Got zxid 0x100000001 expected 0x1
+2018-04-26 21:15:52,620 INFO org.apache.zookeeper.server.persistence.FileTxnSnapLog: Snapshotting: 100000001
+2018-04-26 21:15:52,621 INFO org.apache.zookeeper.server.persistence.FileTxnLog: Creating new log file: log.100000001
+2018-04-26 21:15:52,815 INFO org.apache.zookeeper.server.NIOServerCnxn: Accepted socket connection from /10.1.1.5:48938
+2018-04-26 21:15:52,817 INFO org.apache.zookeeper.server.NIOServerCnxn: Client attempting to establish new session at /10.1.1.5:48938
+2018-04-26 21:15:52,843 INFO org.apache.zookeeper.server.NIOServerCnxn: Established session 0x1630519949b0000 with negotiated timeout 180000 for client /10.1.1.5:48938
+2018-04-26 21:15:54,110 INFO org.apache.zookeeper.server.NIOServerCnxn: Accepted socket connection from /10.1.1.5:48941
+2018-04-26 21:15:54,111 INFO org.apache.zookeeper.server.NIOServerCnxn: Client attempting to establish new session at /10.1.1.5:48941
+2018-04-26 21:15:54,118 INFO org.apache.zookeeper.server.NIOServerCnxn: Established session 0x1630519949b0001 with negotiated timeout 180000 for client /10.1.1.5:48941
+2018-04-26 21:15:55,483 INFO org.apache.zookeeper.server.NIOServerCnxn: Accepted socket connection from /10.1.1.2:45985
+2018-04-26 21:15:55,484 INFO org.apache.zookeeper.server.NIOServerCnxn: Client attempting to establish new session at /10.1.1.2:45985
+2018-04-26 21:15:55,492 INFO org.apache.zookeeper.server.NIOServerCnxn: Established session 0x1630519949b0002 with negotiated timeout 180000 for client /10.1.1.2:45985
+2018-04-26 21:16:14,078 INFO org.apache.zookeeper.server.NIOServerCnxn: Accepted socket connection from /10.1.1.2:45987
+2018-04-26 21:16:14,084 INFO org.apache.zookeeper.server.NIOServerCnxn: Client attempting to establish new session at /10.1.1.2:45987
+2018-04-26 21:16:14,174 INFO org.apache.zookeeper.server.NIOServerCnxn: Established session 0x1630519949b0003 with negotiated timeout 180000 for client /10.1.1.2:45987
+2018-04-26 21:16:18,552 WARN org.apache.zookeeper.server.NIOServerCnxn: EndOfStreamException: Unable to read additional data from client sessionid 0x1630519949b0003, likely client has closed socket
+2018-04-26 21:16:18,553 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.2:45987 which had sessionid 0x1630519949b0003
+2018-04-26 21:19:53,772 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.5:48938 which had sessionid 0x1630519949b0000
+2018-04-26 21:19:53,786 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.5:48941 which had sessionid 0x1630519949b0001
+2018-04-26 21:20:52,561 INFO org.apache.zookeeper.server.NIOServerCnxn: Accepted socket connection from /10.1.1.2:46027
+2018-04-26 21:20:52,565 INFO org.apache.zookeeper.server.NIOServerCnxn: Client attempting to establish new session at /10.1.1.2:46027
+2018-04-26 21:20:52,660 INFO org.apache.zookeeper.server.NIOServerCnxn: Established session 0x1630519949b0004 with negotiated timeout 180000 for client /10.1.1.2:46027
+2018-04-26 21:20:53,018 INFO org.apache.zookeeper.server.NIOServerCnxn: Accepted socket connection from /10.1.1.2:46029
+2018-04-26 21:20:53,020 INFO org.apache.zookeeper.server.NIOServerCnxn: Client attempting to establish new session at /10.1.1.2:46029
+2018-04-26 21:20:53,027 INFO org.apache.zookeeper.server.NIOServerCnxn: Established session 0x1630519949b0005 with negotiated timeout 180000 for client /10.1.1.2:46029
+2018-04-26 21:20:53,136 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.2:46029 which had sessionid 0x1630519949b0005
+2018-04-26 21:21:59,464 WARN org.apache.zookeeper.server.NIOServerCnxn: EndOfStreamException: Unable to read additional data from client sessionid 0x1630519949b0004, likely client has closed socket
+2018-04-26 21:21:59,465 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.2:46027 which had sessionid 0x1630519949b0004

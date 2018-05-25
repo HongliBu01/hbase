@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+  <name>dfs.namenode.dir</name>
+    <value>file:///mnt/extra/dfs-ucare/namenode</value>
+  </property>
+
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:///mnt/extra/dfs-ucare/datanode</value>
+  </property>
+  <property>
+    <name>dfs.replication</name>
+    <value>3</value>
+    <description>Default block replication..
+    </description>
+  </property>
+  <property>
+    <name>dfs.support.append</name>
+    <value>true</value>
+  </property>
+
+</configuration>

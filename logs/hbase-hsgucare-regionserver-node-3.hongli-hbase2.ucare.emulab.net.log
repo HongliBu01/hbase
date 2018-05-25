@@ -1,0 +1,202 @@
+Thu Apr 26 21:15:50 MDT 2018 Starting regionserver on node-3.hongli-hbase2.ucare.emulab.net
+ulimit -n 1024
+2018-04-26 21:15:51,467 INFO org.apache.hadoop.hbase.util.ServerCommandLine: vmName=OpenJDK 64-Bit Server VM, vmVendor=Oracle Corporation, vmVersion=24.95-b01
+2018-04-26 21:15:51,468 INFO org.apache.hadoop.hbase.util.ServerCommandLine: vmInputArguments=[-Xmx1000m, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseConcMarkSweepGC, -XX:+CMSIncrementalMode, -ea, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseConcMarkSweepGC, -XX:+CMSIncrementalMode, -Dhbase.log.dir=/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../logs, -Dhbase.log.file=hbase-hsgucare-regionserver-node-3.hongli-hbase2.ucare.emulab.net.log, -Dhbase.home.dir=/proj/ucare/honglibu_3664/hbase-0.90.1/bin/.., -Dhbase.id.str=hsgucare, -Dhbase.root.logger=INFO,DRFA]
+2018-04-26 21:15:51,548 INFO org.apache.zookeeper.ZooKeeper: Client environment:zookeeper.version=3.3.2-1031432, built on 11/05/2010 05:32 GMT
+2018-04-26 21:15:51,548 INFO org.apache.zookeeper.ZooKeeper: Client environment:host.name=pc837.emulab.net
+2018-04-26 21:15:51,548 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.version=1.7.0_95
+2018-04-26 21:15:51,548 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.vendor=Oracle Corporation
+2018-04-26 21:15:51,548 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2018-04-26 21:15:51,548 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.class.path=/proj/ucare/honglibu_3664/hbase-0.90.1/conf:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/..:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../hbase-0.90.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../hbase-0.90.1-tests.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/avro-1.3.3.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-cli-1.2.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-codec-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-configuration-1.6.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-el-1.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-httpclient-3.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-lang-2.5.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/commons-logging-1.1.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/guava-r06.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/hadoop-core-1.0.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jasper-compiler-5.5.23.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jasper-runtime-5.5.23.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jaxb-api-2.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jersey-core-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jersey-json-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jersey-server-1.4.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jetty-6.1.26.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jetty-util-6.1.26.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jruby-complete-1.0.3.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jsp-2.1-6.1.14.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jsp-api-2.1-6.1.14.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/jsr311-api-1.1.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/log4j-1.2.16.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/protobuf-java-2.3.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/servlet-api-2.5-6.1.14.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/slf4j-api-1.5.8.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/slf4j-log4j12-1.5.8.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/stax-api-1.0.1.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/thrift-0.2.0.jar:/proj/ucare/honglibu_3664/hbase-0.90.1/bin/../lib/zookeeper-3.3.2.jar
+2018-04-26 21:15:51,549 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2018-04-26 21:15:51,549 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.io.tmpdir=/tmp
+2018-04-26 21:15:51,549 INFO org.apache.zookeeper.ZooKeeper: Client environment:java.compiler=<NA>
+2018-04-26 21:15:51,549 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.name=Linux
+2018-04-26 21:15:51,549 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.arch=amd64
+2018-04-26 21:15:51,549 INFO org.apache.zookeeper.ZooKeeper: Client environment:os.version=3.13.0-68-generic
+2018-04-26 21:15:51,549 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.name=hsgucare
+2018-04-26 21:15:51,549 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.home=/users/hsgucare
+2018-04-26 21:15:51,549 INFO org.apache.zookeeper.ZooKeeper: Client environment:user.dir=/proj/ucare/honglibu_3664/hbase-0.90.1
+2018-04-26 21:15:51,551 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=10.1.1.5:2222,10.1.1.4:2222,10.1.1.3:2222 sessionTimeout=180000 watcher=hconnection
+2018-04-26 21:15:51,580 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.3:2222
+2018-04-26 21:15:51,593 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-1-lan0/10.1.1.3:2222, initiating session
+2018-04-26 21:15:51,599 INFO org.apache.zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+2018-04-26 21:15:52,560 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.5:2222
+2018-04-26 21:15:52,561 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-3-lan0/10.1.1.5:2222, initiating session
+2018-04-26 21:15:52,562 INFO org.apache.zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+2018-04-26 21:15:52,712 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.4:2222
+2018-04-26 21:15:52,713 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-2-lan0/10.1.1.4:2222, initiating session
+2018-04-26 21:15:52,746 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server node-2-lan0/10.1.1.4:2222, sessionid = 0x1630519949b0000, negotiated timeout = 180000
+2018-04-26 21:15:52,881 INFO org.apache.hadoop.hbase.ipc.HBaseRpcMetrics: Initializing RPC Metrics with hostName=HRegionServer, port=60020
+2018-04-26 21:15:53,050 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=10.1.1.5:2222,10.1.1.4:2222,10.1.1.3:2222 sessionTimeout=180000 watcher=regionserver:60020
+2018-04-26 21:15:53,052 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.5:2222
+2018-04-26 21:15:53,053 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-3-lan0/10.1.1.5:2222, initiating session
+2018-04-26 21:15:53,054 INFO org.apache.zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x0, likely server has closed socket, closing socket connection and attempting reconnect
+2018-04-26 21:15:53,375 INFO org.apache.hadoop.hbase.regionserver.ShutdownHook: Installed shutdown hook thread: Shutdownhook:regionserver60020
+2018-04-26 21:15:54,008 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.4:2222
+2018-04-26 21:15:54,009 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-2-lan0/10.1.1.4:2222, initiating session
+2018-04-26 21:15:54,017 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server node-2-lan0/10.1.1.4:2222, sessionid = 0x1630519949b0001, negotiated timeout = 180000
+2018-04-26 21:15:54,593 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Starting catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@5aed06ea
+2018-04-26 21:15:54,600 INFO org.apache.hadoop.hbase.regionserver.MemStoreFlusher: globalMemStoreLimit=386.7m, globalMemStoreLimitLowMark=338.3m, maxHeap=966.7m
+2018-04-26 21:15:54,603 DEBUG org.apache.hadoop.hbase.regionserver.PriorityCompactionQueue: Create PriorityCompactionQueue
+2018-04-26 21:15:54,604 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Runs every 10000000ms
+2018-04-26 21:15:54,724 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Master isn't available yet, retrying
+2018-04-26 21:15:57,728 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Connected to master at pc798.emulab.net:60000
+2018-04-26 21:15:57,832 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Telling master at pc798.emulab.net:60000 that we are up
+2018-04-26 21:15:57,863 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Master passed us address to use. Was=pc837.emulab.net:60020, Now=pc837.emulab.net:60020
+2018-04-26 21:15:57,863 DEBUG org.apache.hadoop.hbase.regionserver.HRegionServer: Config from master: fs.default.name=hdfs://node-0:9000/hbase
+2018-04-26 21:15:57,863 DEBUG org.apache.hadoop.hbase.regionserver.HRegionServer: Config from master: hbase.rootdir=hdfs://node-0:9000/hbase
+2018-04-26 21:15:58,138 DEBUG org.apache.hadoop.hbase.regionserver.HRegionServer: logdir=hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046
+2018-04-26 21:15:58,179 INFO org.apache.hadoop.hbase.replication.ReplicationZookeeper: Replication is now started
+2018-04-26 21:15:58,260 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: HLog configuration: blocksize=64 MB, rollsize=60.8 MB, enabled=true, flushlogentries=1, optionallogflushinternal=1000ms
+2018-04-26 21:15:58,359 INFO org.apache.hadoop.hbase.regionserver.wal.SequenceFileLogWriter: Using syncFs -- HDFS-200
+2018-04-26 21:15:58,364 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: New hlog /hbase/.logs/pc837.emulab.net,60020,1524798953046/pc837.emulab.net%3A60020.1524798958261
+2018-04-26 21:15:58,365 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: Using getNumCurrentReplicas--HDFS-826
+2018-04-26 21:15:58,372 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=RegionServer, sessionId=regionserver60020
+2018-04-26 21:15:58,381 INFO org.apache.hadoop.hbase.metrics: MetricsString added: revision
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUser
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsDate
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsUrl
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: MetricsString added: date
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsRevision
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: MetricsString added: user
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: MetricsString added: hdfsVersion
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: MetricsString added: url
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: MetricsString added: version
+2018-04-26 21:15:58,382 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2018-04-26 21:15:58,384 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2018-04-26 21:15:58,384 INFO org.apache.hadoop.hbase.regionserver.metrics.RegionServerMetrics: Initialized
+2018-04-26 21:15:58,388 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_OPEN_REGION-pc837.emulab.net,60020,1524798953046, corePoolSize=3, maxPoolSize=3
+2018-04-26 21:15:58,388 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_OPEN_ROOT-pc837.emulab.net,60020,1524798953046, corePoolSize=1, maxPoolSize=1
+2018-04-26 21:15:58,389 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_OPEN_META-pc837.emulab.net,60020,1524798953046, corePoolSize=1, maxPoolSize=1
+2018-04-26 21:15:58,389 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_CLOSE_REGION-pc837.emulab.net,60020,1524798953046, corePoolSize=3, maxPoolSize=3
+2018-04-26 21:15:58,389 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_CLOSE_ROOT-pc837.emulab.net,60020,1524798953046, corePoolSize=1, maxPoolSize=1
+2018-04-26 21:15:58,389 DEBUG org.apache.hadoop.hbase.executor.ExecutorService: Starting executor service name=RS_CLOSE_META-pc837.emulab.net,60020,1524798953046, corePoolSize=1, maxPoolSize=1
+2018-04-26 21:15:58,539 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2018-04-26 21:15:58,624 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2018-04-26 21:15:58,628 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 60030
+2018-04-26 21:15:58,628 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 60030 webServer.getConnectors()[0].getLocalPort() returned 60030
+2018-04-26 21:15:58,628 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 60030
+2018-04-26 21:15:58,628 INFO org.mortbay.log: jetty-6.1.26
+2018-04-26 21:15:59,177 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:60030
+2018-04-26 21:15:59,179 INFO org.apache.hadoop.hbase.replication.regionserver.ReplicationSourceManager: Current list of replicators: [pc742.emulab.net,60020,1524798953712, pc839.emulab.net,60020,1524798952953, pc837.emulab.net,60020,1524798953046] other RSs: [pc742.emulab.net,60020,1524798953712, pc839.emulab.net,60020,1524798952953, pc837.emulab.net,60020,1524798953046]
+2018-04-26 21:15:59,184 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2018-04-26 21:15:59,185 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server Responder: starting
+2018-04-26 21:15:59,186 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server listener on 60020: starting
+2018-04-26 21:15:59,187 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 0 on 60020: starting
+2018-04-26 21:15:59,188 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 1 on 60020: starting
+2018-04-26 21:15:59,189 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 2 on 60020: starting
+2018-04-26 21:15:59,190 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 3 on 60020: starting
+2018-04-26 21:15:59,190 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 4 on 60020: starting
+2018-04-26 21:15:59,191 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 5 on 60020: starting
+2018-04-26 21:15:59,192 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 6 on 60020: starting
+2018-04-26 21:15:59,193 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 7 on 60020: starting
+2018-04-26 21:15:59,194 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 8 on 60020: starting
+2018-04-26 21:15:59,195 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 9 on 60020: starting
+2018-04-26 21:15:59,227 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 0 on 60020: starting
+2018-04-26 21:15:59,227 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 1 on 60020: starting
+2018-04-26 21:15:59,228 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 2 on 60020: starting
+2018-04-26 21:15:59,228 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 3 on 60020: starting
+2018-04-26 21:15:59,229 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 4 on 60020: starting
+2018-04-26 21:15:59,229 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 5 on 60020: starting
+2018-04-26 21:15:59,230 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 6 on 60020: starting
+2018-04-26 21:15:59,230 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 7 on 60020: starting
+2018-04-26 21:15:59,231 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 8 on 60020: starting
+2018-04-26 21:15:59,232 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 9 on 60020: starting
+2018-04-26 21:15:59,232 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Serving as pc837.emulab.net,60020,1524798953046, RPC listening on /155.98.36.137:60020, sessionid=0x1630519949b0001
+2018-04-26 21:15:59,240 INFO org.apache.hadoop.hbase.regionserver.StoreFile: Allocating LruBlockCache with maximum size 193.3m
+2018-04-26 21:16:02,207 INFO org.apache.hadoop.hbase.zookeeper.MetaNodeTracker: Detected completed assignment of META, notifying catalog tracker
+2018-04-26 21:16:14,704 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Received request to open 1 region(s)
+2018-04-26 21:16:14,705 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Received request to open region: table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:16:14,709 DEBUG org.apache.hadoop.hbase.regionserver.handler.OpenRegionHandler: Processing open of table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:16:14,712 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:60020-0x1630519949b0001 Attempting to transition node 44119e1cf86d94f397db1c6ad3c89198 from M_ZK_REGION_OFFLINE to RS_ZK_REGION_OPENING
+2018-04-26 21:16:14,738 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:60020-0x1630519949b0001 Successfully transitioned node 44119e1cf86d94f397db1c6ad3c89198 from M_ZK_REGION_OFFLINE to RS_ZK_REGION_OPENING
+2018-04-26 21:16:14,747 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Opening region: REGION => {NAME => 'table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.', STARTKEY => '', ENDKEY => '', ENCODED => 44119e1cf86d94f397db1c6ad3c89198, TABLE => {{NAME => 'table1', FAMILIES => [{NAME => 'cf', BLOOMFILTER => 'NONE', REPLICATION_SCOPE => '0', COMPRESSION => 'NONE', VERSIONS => '3', TTL => '2147483647', BLOCKSIZE => '65536', IN_MEMORY => 'false', BLOCKCACHE => 'true'}]}}
+2018-04-26 21:16:14,750 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:16:14,817 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.; next sequenceid=1
+2018-04-26 21:16:14,817 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:60020-0x1630519949b0001 Attempting to transition node 44119e1cf86d94f397db1c6ad3c89198 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENING
+2018-04-26 21:16:14,830 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:60020-0x1630519949b0001 Successfully transitioned node 44119e1cf86d94f397db1c6ad3c89198 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENING
+2018-04-26 21:16:14,843 INFO org.apache.hadoop.hbase.catalog.MetaEditor: Updated row table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198. in region .META.,,1 with server=pc837.emulab.net:60020, startcode=1524798953046
+2018-04-26 21:16:14,843 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:60020-0x1630519949b0001 Attempting to transition node 44119e1cf86d94f397db1c6ad3c89198 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENED
+2018-04-26 21:16:14,855 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:60020-0x1630519949b0001 Successfully transitioned node 44119e1cf86d94f397db1c6ad3c89198 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENED
+2018-04-26 21:16:14,855 DEBUG org.apache.hadoop.hbase.regionserver.handler.OpenRegionHandler: Opened table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:19:49,215 INFO org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=10.1.1.3:2222 sessionTimeout=180000 watcher=connection to cluster: 1
+2018-04-26 21:19:49,240 INFO org.apache.zookeeper.ClientCnxn: Opening socket connection to server /10.1.1.3:2222
+2018-04-26 21:19:49,241 INFO org.apache.zookeeper.ClientCnxn: Socket connection established to node-1-lan0/10.1.1.3:2222, initiating session
+2018-04-26 21:19:49,259 INFO org.apache.zookeeper.ClientCnxn: Session establishment complete on server node-1-lan0/10.1.1.3:2222, sessionid = 0x630519911e0008, negotiated timeout = 180000
+2018-04-26 21:19:49,342 INFO org.apache.hadoop.hbase.replication.ReplicationZookeeper: Added new peer cluster 1
+2018-04-26 21:19:49,374 INFO org.apache.hadoop.hbase.metrics: new MBeanInfo
+2018-04-26 21:19:49,393 INFO org.apache.hadoop.hbase.replication.regionserver.ReplicationSource: Getting 1 rs from peer cluster # 1
+2018-04-26 21:19:49,394 INFO org.apache.hadoop.hbase.replication.regionserver.ReplicationSource: Choosing peer pc839.emulab.net:60020
+2018-04-26 21:19:50,394 DEBUG org.apache.hadoop.hbase.replication.regionserver.ReplicationSource: Opening log for replication pc837.emulab.net%3A60020.1524798958261 at 0
+2018-04-26 21:19:50,445 DEBUG org.apache.hadoop.hbase.replication.regionserver.ReplicationSource: currentNbOperations:0 and seenEntries:0 and size: 124
+2018-04-26 21:19:50,446 INFO org.apache.hadoop.hbase.replication.regionserver.ReplicationSourceManager: *********************Enter logPositionAndCleanOldLogs **************
+2018-04-26 21:19:50,446 INFO org.apache.hadoop.hbase.replication.regionserver.ReplicationSourceManager: Going to report log #pc837.emulab.net%3A60020.1524798958261 for position 124 in hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046/pc837.emulab.net%3A60020.1524798958261
+2018-04-26 21:19:50,710 INFO org.apache.hadoop.hbase.replication.regionserver.ReplicationSourceManager: Removing 1 logs in the list: [pc777.emulab.net%3A60020.1524683744187]
+2018-04-26 21:19:50,727 FATAL org.apache.hadoop.hbase.regionserver.HRegionServer: ABORTING region server serverName=pc837.emulab.net,60020,1524798953046, load=(requests=0, regions=1, usedHeap=123, maxHeap=966): Failed remove from list
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /hbase/replication/rs/pc837.emulab.net,60020,1524798953046/1/pc777.emulab.net%3A60020.1524683744187
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:102)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:42)
+	at org.apache.zookeeper.ZooKeeper.delete(ZooKeeper.java:728)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.deleteNode(ZKUtil.java:959)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.deleteNode(ZKUtil.java:948)
+	at org.apache.hadoop.hbase.replication.ReplicationZookeeper.removeLogFromList(ReplicationZookeeper.java:413)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSourceManager.logPositionAndCleanOldLogs(ReplicationSourceManager.java:141)
+	at org.apache.hadoop.hbase.replication.regionserver.ReplicationSource.run(ReplicationSource.java:332)
+2018-04-26 21:19:50,733 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Dump of metrics: request=0.0, regions=1, stores=1, storefiles=0, storefileIndexSize=0, memstoreSize=0, compactionQueueSize=0, flushQueueSize=0, usedHeap=123, maxHeap=966, blockCacheSize=1664280, blockCacheFree=201064792, blockCacheCount=0, blockCacheHitCount=0, blockCacheMissCount=0, blockCacheEvictedCount=0, blockCacheHitRatio=0, blockCacheHitCachingRatio=0
+2018-04-26 21:19:50,733 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: STOPPED: Failed remove from list
+2018-04-26 21:19:50,733 DEBUG org.apache.hadoop.hbase.replication.regionserver.ReplicationSource: Nothing to replicate, sleeping 1000 times 1
+2018-04-26 21:19:51,733 DEBUG org.apache.hadoop.hbase.replication.regionserver.ReplicationSource: Source exiting 1
+2018-04-26 21:19:53,420 INFO org.apache.hadoop.ipc.HBaseServer: Stopping server on 60020
+2018-04-26 21:19:53,420 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 0 on 60020: exiting
+2018-04-26 21:19:53,420 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 1 on 60020: exiting
+2018-04-26 21:19:53,420 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 0 on 60020: exiting
+2018-04-26 21:19:53,421 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 4 on 60020: exiting
+2018-04-26 21:19:53,421 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 2 on 60020: exiting
+2018-04-26 21:19:53,422 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 7 on 60020: exiting
+2018-04-26 21:19:53,422 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 9 on 60020: exiting
+2018-04-26 21:19:53,423 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 2 on 60020: exiting
+2018-04-26 21:19:53,422 INFO org.apache.hadoop.ipc.HBaseServer: Stopping IPC Server listener on 60020
+2018-04-26 21:19:53,422 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 5 on 60020: exiting
+2018-04-26 21:19:53,422 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 8 on 60020: exiting
+2018-04-26 21:19:53,421 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 3 on 60020: exiting
+2018-04-26 21:19:53,448 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 4 on 60020: exiting
+2018-04-26 21:19:53,424 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 5 on 60020: exiting
+2018-04-26 21:19:53,423 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 9 on 60020: exiting
+2018-04-26 21:19:53,423 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 8 on 60020: exiting
+2018-04-26 21:19:53,422 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 1 on 60020: exiting
+2018-04-26 21:19:53,422 INFO org.apache.hadoop.ipc.HBaseServer: PRI IPC Server handler 6 on 60020: exiting
+2018-04-26 21:19:53,449 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 3 on 60020: exiting
+2018-04-26 21:19:53,450 INFO org.apache.hadoop.ipc.HBaseServer: Stopping IPC Server Responder
+2018-04-26 21:19:53,451 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 7 on 60020: exiting
+2018-04-26 21:19:53,451 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Stopping infoServer
+2018-04-26 21:19:53,452 INFO org.apache.hadoop.ipc.HBaseServer: IPC Server handler 6 on 60020: exiting
+2018-04-26 21:19:53,454 INFO org.mortbay.log: Stopped SelectChannelConnector@0.0.0.0:60030
+2018-04-26 21:19:53,556 INFO org.apache.hadoop.hbase.regionserver.LogRoller: LogRoller exiting.
+2018-04-26 21:19:53,557 INFO org.apache.hadoop.hbase.regionserver.CompactSplitThread: regionserver60020.compactor exiting
+2018-04-26 21:19:53,557 INFO org.apache.hadoop.hbase.regionserver.MemStoreFlusher: regionserver60020.cacheFlusher exiting
+2018-04-26 21:19:53,557 INFO org.apache.hadoop.hbase.regionserver.HRegionServer$MajorCompactionChecker: regionserver60020.majorCompactionChecker exiting
+2018-04-26 21:19:53,558 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: regionserver60020.logSyncer interrupted while waiting for sync requests
+2018-04-26 21:19:53,559 DEBUG org.apache.hadoop.hbase.regionserver.handler.CloseRegionHandler: Processing close of table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:19:53,559 INFO org.apache.hadoop.hbase.regionserver.wal.HLog: regionserver60020.logSyncer exiting
+2018-04-26 21:19:53,559 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Closing table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.: disabling compactions & flushes
+2018-04-26 21:19:53,559 DEBUG org.apache.hadoop.hbase.regionserver.wal.HLog: closing hlog writer in hdfs://node-0:9000/hbase/.logs/pc837.emulab.net,60020,1524798953046
+2018-04-26 21:19:53,560 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Updates disabled for region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:19:53,560 DEBUG org.apache.hadoop.hbase.regionserver.Store: closed cf
+2018-04-26 21:19:53,561 INFO org.apache.hadoop.hbase.regionserver.HRegion: Closed table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:19:53,561 DEBUG org.apache.hadoop.hbase.regionserver.handler.CloseRegionHandler: Closed region table1,,1524798974429.44119e1cf86d94f397db1c6ad3c89198.
+2018-04-26 21:19:53,595 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: aborting server at: pc837.emulab.net,60020,1524798953046
+2018-04-26 21:19:53,595 DEBUG org.apache.hadoop.hbase.catalog.CatalogTracker: Stopping catalog tracker org.apache.hadoop.hbase.catalog.CatalogTracker@5aed06ea
+2018-04-26 21:19:53,595 INFO org.apache.hadoop.hbase.regionserver.Leases: regionserver60020 closing leases
+2018-04-26 21:19:53,595 INFO org.apache.hadoop.hbase.regionserver.Leases: regionserver60020 closed leases
+2018-04-26 21:19:53,596 INFO org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation: Closed zookeeper sessionid=0x1630519949b0000
+2018-04-26 21:19:53,682 INFO org.apache.zookeeper.ZooKeeper: Session: 0x1630519949b0000 closed
+2018-04-26 21:19:53,683 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2018-04-26 21:19:53,697 INFO org.apache.zookeeper.ZooKeeper: Session: 0x1630519949b0001 closed
+2018-04-26 21:19:53,697 INFO org.apache.zookeeper.ClientCnxn: EventThread shut down
+2018-04-26 21:19:53,698 INFO org.apache.hadoop.hbase.replication.regionserver.ReplicationSource: Closing source 1 because: Region server is closing
+2018-04-26 21:19:53,698 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: regionserver60020 exiting
+2018-04-26 21:19:53,700 INFO org.apache.hadoop.hbase.regionserver.ShutdownHook: Shutdown hook starting; hbase.shutdown.hook=true; fsShutdownHook=Thread[Thread-14,5,main]
+2018-04-26 21:19:53,700 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: STOPPED: Shutdown hook
+2018-04-26 21:19:53,701 INFO org.apache.hadoop.hbase.regionserver.ShutdownHook: Starting fs shutdown hook thread.
+2018-04-26 21:19:53,702 INFO org.apache.hadoop.hbase.regionserver.ShutdownHook: Shutdown hook finished.

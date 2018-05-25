@@ -1,0 +1,10 @@
+2018-04-27 00:39:19,554 INFO org.apache.zookeeper.server.NIOServerCnxn: Accepted socket connection from /10.1.1.2:33724
+2018-04-27 00:39:19,560 INFO org.apache.zookeeper.server.NIOServerCnxn: Client attempting to establish new session at /10.1.1.2:33724
+2018-04-27 00:39:19,850 INFO org.apache.zookeeper.server.NIOServerCnxn: Established session 0x630519911e000a with negotiated timeout 180000 for client /10.1.1.2:33724
+2018-04-27 00:39:20,490 WARN org.apache.zookeeper.server.NIOServerCnxn: EndOfStreamException: Unable to read additional data from client sessionid 0x630519911e000a, likely client has closed socket
+2018-04-27 00:39:20,491 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.2:33724 which had sessionid 0x630519911e000a
+2018-04-27 00:39:23,546 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.4:53014 which had sessionid 0x630519911e0003
+2018-04-27 00:39:23,556 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.4:53017 which had sessionid 0x630519911e0004
+2018-04-27 00:39:23,857 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.2:33378 which had sessionid 0x630519911e0005
+2018-04-27 00:39:23,865 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /10.1.1.2:33368 which had sessionid 0x630519911e0000
+Fri Apr 27 00:39:26 MDT 2018 Killing zookeeper
